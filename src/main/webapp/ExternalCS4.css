@@ -1,0 +1,120 @@
+@charset "UTF-8";
+input{
+	width:200px;
+	height:40px;
+	padding:5px;
+	font-size: 20px;
+	border-radius:5px;
+}
+#login{
+	padding:30px;
+	background-color:cornsilk;
+	border-radius: 20px;
+	margin-top:30px;
+	width:40%;
+}
+#loginbutton{
+	width: 200px;
+	height:40px;
+	font-size:20px;
+    padding:0px;
+	text-align: center;
+	background-color: rgb(128, 255, 0);
+	border-radius:90px;
+}
+#outerbox{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center ;
+}
+#innerbox{
+	width:30%;
+	margin:1%;
+	background-color:floralwhite;
+	border-radius:20px;
+	padding:2%;
+}
+#innerbox:hover{
+	box-shadow: 5px 15px 20px #888888;
+}
+h1{
+	color: green;
+	font-size: 30px;
+}
+#btn-home{
+	
+	background-color: #1bee4a;
+	width:inherit;
+	height:20%;
+	border-radius:5px;
+	font-size:20px;
+	text-align: center;
+	border: none;
+}
+#btn-home:hover{
+	box-shadow: 5px 5px 10px #c2fefe;
+}
+#btn{
+	
+	background-color: #80ff80;
+	width:inherit;
+	height:20%;
+	border-radius:5px;
+	font-size:20px;
+	text-align: center;
+	border: none;
+}
+#btn{
+	box-shadow: 5px 5px 10px #c2fefe;
+}
+
+
+#listofbooks{
+	width:70%;
+	margin-top: 4%;
+	border-style:solid;
+	border-color: black;
+	padding: 10px;
+}
+#addbooks{
+	margin-top:2%;
+    color:white;
+background: rgba(0, 0, 0, 0.8);
+font-size:20px;
+	width:40%;
+	border-radius:20px;
+	padding:20px;
+}
+td{
+padding:10px;
+}
+body{
+	font-family: cursive;
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+ font-size:20px;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:red;
+  color: white;
+}

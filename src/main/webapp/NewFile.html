@@ -1,0 +1,24 @@
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Return Date Validation</title>
+   
+</head>
+<body>
+    <label for="issueDate">Issue Date:</label>
+    <input type="date" id="issueDate" name="issueDate" oninput="validateDates()" required><br><br>
+        
+    <label for="returnDate">Return Date:</label>
+    <input type="date" id="returnDate" name="returnDate" oninput="validateDates()" required><br><br>
+
+    <div id="dateError" style="color: red;"></div>
+
+    <!-- Optional: Display submit button if both dates are valid -->
+    <input type="submit" value="Submit" id="submitButton" disabled>
+    
+
+</body>
+</html>
+
+
